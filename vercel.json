@@ -3,5 +3,12 @@
     "cleanUrls": true,
     "rewrites": [
       { "source": "/", "destination": "/index.html" }
-    ]
+    ],
+    "redirects": [
+        {
+          "source": "/(.*)",
+          "destination": "https://gqunitedcc.co.uk/$1",
+          "permanent": true
+        }
+      ]
   }
